@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#main {
+  /* width: 100%; */
+
+  min-height: 100vh;
+  background-image: url("./img/undraw_under_construction_46pa.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 55%;
+}
+.title,
+.message {
+  transform: translate(4%, 25vh);
+  font-family: "Baloo Tamma 2", cursive;
+  opacity: 0.9;
+}
+.title {
+  font-size: 6rem;
+}
+.message {
+  font-size: 1.8rem;
+}
